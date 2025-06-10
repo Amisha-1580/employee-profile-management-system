@@ -1,0 +1,192 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> compony HR portal</title>
+    <link rel="icon" href="employeeIcon.png">
+    <style> 
+    body{
+
+        margin:0;
+        padding:0;
+        font-family:Arial,sans-serif;
+background-color: aqua;
+ }
+    
+   header{
+
+background-color:#083972;
+color: #ffffffc2;
+text-align: center;
+padding: 2px;
+ } 
+h2{
+    background-color: #083972;
+    color: white;
+    text-align: center;
+}
+
+   .navitem{
+
+    display: inline;
+padding: 15px;
+
+}
+    .navitem a {
+
+        text-decoration: none; 
+color: aquamarine;
+
+}
+
+   .registerform {
+
+max-width: max-content;
+/* background-color: rgb(196, 199, 17); */
+margin-right: auto;
+margin-left: auto;
+
+}
+
+
+.employeetable{
+
+    text-align: center;
+}
+
+table {
+
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+width:100% ;
+border-collapse:collapse;
+}
+th,td {
+
+    border:1px solid  #25cf16; ;
+padding: 8px;
+
+}
+
+.contactus
+{
+text-align: center;
+background-color: #083972;
+color: #ffffffc2;
+text-align: center;
+padding: 2px;
+
+
+}
+form{
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 20px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+label{
+    font-size: large;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+</style>
+    
+</head>
+<body>
+    <header>
+<h1> welcome to compony HR portal</h1>
+<ul>
+<li class="navitem"><a href="#employee-registation"> employ registation</a></li>
+<li class="navitem" ><a href="#employee-directory"> employ directory</a></li>
+<li  class="navitem"><a href="#contact-us"> contact us</a></li>
+</ul>
+</header>
+<img src="web2.jpg" height="400px"width="100%" ></img>
+
+<section id="employee-registation" class="registerform">
+    <h2>Employee Registration</h2>
+    <p>Fill out the form below to register as an employee. 🤔</p>
+    <form action="emp_data.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+    
+        <label for="role">Select Role:</label>
+        <select name="role">
+            <option>Software Engineer</option>
+            <option>Product Manager</option>
+            <option>Designer</option>
+            <option>Web Developer</option>
+            <option>PHP Developer</option>
+        </select><br><br>
+    
+        <label for="joiningdate">Select Joining Date:</label>
+        <input type="date" id="joiningdate" name="joiningdate"><br><br>
+    
+        <div class="wrapper">
+            <input type="submit" id="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    
+</section>
+<sectoin id="employee-directory"class="employeetable">
+<h2> Employ directory</h2>
+<p> list of all register employe</p>
+<table border="1">
+<tr>
+    <th> Employ name</th>
+<th> Employ id</th>
+<th> Employ role</th>
+</tr>
+
+<tr>
+    <td> paki mishra</td>
+    <td> 444</td>
+    <td> software manager</td>
+</tr>
+
+<tr>
+    <td>sara khan</td>
+    <td> 333</td>
+    <td>dseigner</td>
+</tr>
+<tr>
+     <td> amisha bhasme </td>
+      <td>  111</td>
+      <td> software engineer</td>
+
+</tr>
+</table>
+</sectoin>
+<section>
+
+
+<section id="contact-us" class="contactus">
+<h2 color="blue"> contact Us</h2>
+<p> you can contact us at compony@official.com</p>
+<p> office timming:9AM to 5PM</p>
+</section>
+<!-- <iframe src="https://g.co/kgs/xt9Yb9u" ></iframe> -->
+<iframe src="https://rb.gy/a46gbc" width="100%" height="300" style="border:0;" 
+allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>
