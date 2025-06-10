@@ -1,0 +1,24 @@
+# ================================
+# 🌐 Web Stack Dependencies
+# For: Employee Profile Management System
+# ================================
+
+Frontend:
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+Backend:
+- PHP 7.x or above
+- MySQL 5.7 or 8.x
+
+Other Requirements:
+- A local server environment (e.g., XAMPP, MAMP, WAMP)
+- Web browser (Chrome, Firefox, etc.)
+
+# ================================
+# ⚙️ To run:
+# 1. Start Apache and MySQL from your local server (e.g., XAMPP)
+# 2. Import the database using schema.sql
+# 3. Open the project in your browser
+# ================================
