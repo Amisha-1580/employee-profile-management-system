@@ -2,7 +2,6 @@
  A web-based Employee Profile Management System for registering and managing employee data. > Built using PHP, MySQL, and modern frontend technologies like HTML, CSS, and JavaScript.
 
 
-# 👨‍💼 Employee Profile Management System
 
 ## 📋 Overview
 A responsive web application for registering and managing employee profiles.  
